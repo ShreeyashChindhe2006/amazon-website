@@ -1,0 +1,494 @@
+*{
+   margin: 0; 
+   font-family: Arial, Helvetica, sans-serif;
+   border: border-box; 
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.logo{
+    height: 47px;
+    width: 129px;
+    margin-left: 5px;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 119px;   
+}
+
+.effect{
+    border: 2px solid transparent;
+    text-align: center;
+}
+.effect:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+/*-----------------------------------BOX 2-----------------------------------*/
+
+#location{
+    height: 47px;
+    width: 100px;
+}
+
+#add-first{
+    margin-left: 2px;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+#add-icon{
+    align-items: center;
+    display: flex;
+}
+
+#loca{
+    margin-left: 3px;
+}
+
+#add-second{
+    margin-left: 3px;
+    font-size:1.2rem;
+}
+
+/*----------------------------------BOX 3----------------------------------*/
+
+#nav-search{
+    width: 620px;
+    height: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    border: 3px solid transparent;
+    border-radius: 8px;
+}
+#nav-search:hover{
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+}
+#search-select{
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+    border-radius: 7px 0px 0px 7px ;
+    border: 3px solid transparent;
+}
+
+#search-select:hover{
+    border: 3px solid orange;
+}
+
+#search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+#search-iconnn{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(192, 139, 60);
+    border-radius: 0px 7px 7px 0px ;
+    color: #393939;
+    border: 2px solid transparent;
+}
+#search-iconnn:hover{
+    border: 2px solid orange;
+}
+/*---------------------------------BOX 4---------------------------------*/
+
+span{
+    font-size: 0.9rem;
+}
+
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/*---------------------------------BOX 5----------------------------------*/
+/*------------------------------- CART-------------------------------------*/
+
+#nav-cart{
+    height: 35px;
+    width:70PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart{
+   font-size:25px ;
+   padding-right: 4px;
+}
+
+/* panet */
+
+
+#navbar2{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+#nav1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+
+}
+.navitems{
+    text-align: center;
+    align-items: center;
+    padding: 9px 6px 7px 7px;
+}
+
+#nav2{
+    font-weight: 750;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 3px 10px 3px 10px;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* alighin item center for verticle center the element */
+/* justify content center for horizontaly cente rthe element */
+.hero{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.85rem;
+width: 90%;
+margin-bottom: 50px;
+}
+
+#hero-msg a {
+    color: #007185;
+}
+
+/*-----------------------------shoping section----------------------------*/
+
+.shop-section{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+background-color: #bbded7;
+padding-bottom: 17px;
+}
+
+.box{
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    margin-top: 16px ;
+    padding: 20px 0px 15px;
+    border-radius: 10px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a {
+    color: #007185;
+    cursor: pointer;
+}
+
+.box--{
+    height: 454px;
+    width: 320px;
+    background-color: bbded7;
+    margin-top: 16px ;
+}
+
+.box-2{
+    height: 200px;
+    width: 320px;
+background-color: rgb(220, 160, 160);
+    border-radius: 10px;
+}
+
+.box-2 p {
+    padding: 30px 30px 30px 54px;
+    font-size: 30px;
+}
+
+#box-signin{
+margin-left: 60px;
+}
+
+.box-signin-button{
+    background-color: #ffd814;
+    color: #000000;
+    height: 50px;
+    width: 198px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsered img {
+    height: 223px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#sponser-text{
+font-size: 9px;
+margin-left: 235px;
+}
+#sponser-text i {
+    font-size: 10px;
+}
+
+/* ================================recomendation================================ */
+
+#personalize{
+    height: 188px;
+    border: 0.1rem solid rgb(123, 117, 117);
+    border-radius: 8px;
+    margin: 20px 5px 20px 5px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#person-div{
+    margin-top: 42px;
+}
+
+.perso-detail-1{
+    height: 36px;
+}
+
+.perso-detail-2{
+    
+    background-color: #ffd814;
+    color: #000000;
+    height: 50px;
+    width: 198px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 85px; 
+
+}
+
+.perso-detail-2:hover{animation-duration: 750ms;
+    background-color: #ff6c03;
+}
+
+.perso-detail-3{
+    height: 15px;
+    color: black;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+.perso-detail-3 a {
+    font-size: 12px;
+    color: #007185;;
+}
+
+.perso-detail-3 a :hover{
+    animation-duration: ;
+}
+
+/*---------------------------------footer---------------------------------*/
+
+footer{
+    margin-top: 19px;
+}
+
+#foot-panal-1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#foot-panel-2{
+background-color: #222f3d;
+color: white;
+height: 350px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a {
+    display:block;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+#foot-panal-3{
+    height: 68px;
+background-color: #222f3d;
+    border-top: 0.2px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#foot-panel-logo{
+    height: 47px;
+    width: 129px;
+    margin-left: 5px;
+}
+
+#foot-panel-logo img {
+    height: 50px;
+    width: 119px;   
+}
+
+#foot-panel-logo{
+    display:flex;
+text-align: center;
+justify-content: center;
+}
+
+#foot-language{
+    color: white;
+    background-color: transparent;
+height:34px;
+width: 117px;
+font-size: 16px;
+cursor: pointer;
+display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0px 7px 0px 9px;
+}
+
+#foot-country{
+    color: white;
+    background-color: transparent;
+height:34px;
+width: 117px;
+font-size: 16px;
+cursor: pointer;
+display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0px 7px 0px 9px;
+}
+
+#search-icon{
+    height: 34px;
+    width: 117px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+}
+
+#foot-panal-4{
+    height: 185px;
+    padding-left: 90px;
+    padding-bottom: 90px;
+    /* display: flex; */
+    background-color: #131a22;
+    columns: white;
+    justify-content: space-evenly;
+    height: 182px;
+    padding: 50px ;
+}
+
+h5{
+    color: #dddddd;
+}
+
+.foot-ul{
+    display: flex;
+    margin-left: 190px;
+}
+
+#foot-panal-4 ul a{
+    color: #999999;
+    font-size: 12px;
+}
+
+#foot-panel-5{
+    height: 76px;
+    background-color: #131a22;
+    padding-top: 17px;
+}
+
+#condition{
+    height: 18px;
+    /* background-color: #222f3d; */
+    color: #dddddd;
+    text-align: center;
+    font-size: 12px;
+}
+#condition a {
+    /* height: 15px; */
+    margin: 0px 9px 0px 9px;
+}
+
+#affilates{
+    height: 18px;
+    /* background-color: #222f3d; */
+    color: #dddddd;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4.5px;
+}
